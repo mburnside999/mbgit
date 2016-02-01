@@ -1,0 +1,203 @@
+Apache Ant(TM) version 1.9.6 compiled on June 29 2015
+Trying the default build file: build.xml
+Buildfile: /Users/mburnside/salesforce_ant_35.0/sample/build.xml
+Detected Java version: 1.8 in: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre
+Detected OS: Mac OS X
+parsing buildfile /Users/mburnside/salesforce_ant_35.0/sample/build.xml with URI = file:/Users/mburnside/salesforce_ant_35.0/sample/build.xml
+Project base dir set to: /Users/mburnside/salesforce_ant_35.0/sample
+parsing buildfile jar:file:/Users/mburnside/ForceMigrationTool/apache-ant-1.9.6/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/Users/mburnside/ForceMigrationTool/apache-ant-1.9.6/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+ [property] Loading /Users/mburnside/salesforce_ant_35.0/sample/build.properties
+ [property] Loading Environment env.
+parsing buildfile jar:file:/Users/mburnside/salesforce_ant_35.0/ant-salesforce.jar!/com/salesforce/antlib.xml with URI = jar:file:/Users/mburnside/salesforce_ant_35.0/ant-salesforce.jar!/com/salesforce/antlib.xml from a zip file
+Build sequence for target(s) `listMetadata' is [listMetadata]
+Complete build sequence is [listMetadata, deployCode, deployCodeNoTestLevelSpecified, deployUnpackaged, describeMetadata, undeployCode, quickDeploy, deployCodeFailingTest, retrieveCode, deployCodeCheckOnly, cancelDeploy, deployZip, retrievePkg, retrieveUnpackaged, test, bulkRetrieve, , deployCodeRunLocalTests]
+
+listMetadata:
+[antlib:com.salesforce] Could not load definitions from resource com/salesforce/antlib.xml. It could not be found.
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/MyProfilePageControllerTest.cls
+[sf:listMetadata] FullName/Id: MyProfilePageControllerTest/01p28000005kxpfAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/SiteRegisterController.cls
+[sf:listMetadata] FullName/Id: SiteRegisterController/01p28000005kxpYAAQ
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/MyProfilePageController.cls
+[sf:listMetadata] FullName/Id: MyProfilePageController/01p28000005kxpeAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/CommunitiesLandingControllerTest.cls
+[sf:listMetadata] FullName/Id: CommunitiesLandingControllerTest/01p28000005kxpjAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/ForgotPasswordController.cls
+[sf:listMetadata] FullName/Id: ForgotPasswordController/01p28000005kxpcAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/CommunitiesLoginController.cls
+[sf:listMetadata] FullName/Id: CommunitiesLoginController/01p28000005kxpgAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/OpportunityRegHandler.cls
+[sf:listMetadata] FullName/Id: OpportunityRegHandler/01p28000005kyqCAAQ
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/CommunitiesSelfRegControllerTest.cls
+[sf:listMetadata] FullName/Id: CommunitiesSelfRegControllerTest/01p28000005kxplAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/CommunitiesSelfRegConfirmControllerTest.cls
+[sf:listMetadata] FullName/Id: CommunitiesSelfRegConfirmControllerTest/01p28000005kxpnAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/ConcurrentSessionsPolicyCondition.cls
+[sf:listMetadata] FullName/Id: ConcurrentSessionsPolicyCondition/01p28000005lAxOAAU
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/mycontroller.cls
+[sf:listMetadata] FullName/Id: mycontroller/01p28000005myWBAAY
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/SiteLoginController.cls
+[sf:listMetadata] FullName/Id: SiteLoginController/01p28000005kxpWAAQ
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/SiteLoginControllerTest.cls
+[sf:listMetadata] FullName/Id: SiteLoginControllerTest/01p28000005kxpXAAQ
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/CommunitiesLandingController.cls
+[sf:listMetadata] FullName/Id: CommunitiesLandingController/01p28000005kxpiAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/CommunitiesSelfRegConfirmController.cls
+[sf:listMetadata] FullName/Id: CommunitiesSelfRegConfirmController/01p28000005kxpmAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/mycomponentController.cls
+[sf:listMetadata] FullName/Id: mycomponentController/01p28000005lNsMAAU
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/CommunitiesSelfRegController.cls
+[sf:listMetadata] FullName/Id: CommunitiesSelfRegController/01p28000005kxpkAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/ChangePasswordController.cls
+[sf:listMetadata] FullName/Id: ChangePasswordController/01p28000005kxpaAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/CommunitiesLoginControllerTest.cls
+[sf:listMetadata] FullName/Id: CommunitiesLoginControllerTest/01p28000005kxphAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/ForgotPasswordControllerTest.cls
+[sf:listMetadata] FullName/Id: ForgotPasswordControllerTest/01p28000005kxpdAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/ChangePasswordControllerTest.cls
+[sf:listMetadata] FullName/Id: ChangePasswordControllerTest/01p28000005kxpbAAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/SiteRegisterControllerTest.cls
+[sf:listMetadata] FullName/Id: SiteRegisterControllerTest/01p28000005kxpZAAQ
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] ************************************************************
+[sf:listMetadata] FileName: classes/PieChartController.cls
+[sf:listMetadata] FullName/Id: PieChartController/01p28000005l5g9AAA
+[sf:listMetadata] Manageable State: unmanaged
+[sf:listMetadata] Namespace Prefix: null
+[sf:listMetadata] Created By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] Last Modified By (Name/Id): Mike Burnside/005280000021DazAAE
+[sf:listMetadata] ************************************************************
+
+BUILD SUCCESSFUL
+Total time: 7 seconds
